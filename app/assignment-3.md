@@ -1,0 +1,38 @@
+```
+└── 📁app
+    └── 📁assets
+        └── 📁image
+            ├── hero-img.png
+            ├── ic-1.png
+            ├── ic-2.png
+            ├── ic-3.png
+            ├── learn-more-icon.png
+            ├── logo.png
+    └── 📁component
+        └── 📁common
+            └── 📁footer
+                ├── footer.css
+                ├── footer.tsx
+            └── 📁TopNavBar
+                ├── topNavBar-style.css
+                ├── topNavBar.tsx
+        └── 📁page
+            └── 📁home
+                └── 📁hero
+                    ├── hero.css
+                    ├── home-hero-sec.tsx
+                └── 📁sec-3
+                    ├── sec-3.tsx
+                └── 📁service
+                    ├── service.css
+                    ├── service.tsx
+    └── 📁routes
+        └── 📁home
+            ├── home.tsx
+        └── 📁layout
+            ├── layout.css
+            ├── layout.tsx
+    ├── app.css
+    ├── root.tsx
+    └── routes.ts
+```

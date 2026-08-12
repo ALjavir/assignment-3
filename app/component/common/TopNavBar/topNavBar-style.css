@@ -1,0 +1,141 @@
+/* =========================
+   NAVBAR
+========================= */
+
+.top-nav-bar {
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 115px;
+    box-sizing: border-box;
+
+    background: #fff;
+}
+
+
+/* =========================
+   LOGO
+========================= */
+
+.logo {
+    width: 200px;
+    height: auto;
+
+    flex-shrink: 0;
+}
+
+
+/* =========================
+   NAV MENU
+========================= */
+
+.nav-menu {
+    margin-left: 85px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 30px;
+
+    height: 100%;
+}
+
+
+/* =========================
+   NAV LINKS
+========================= */
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 26px;
+    padding: 0 3px;
+
+    color: #111;
+    text-decoration: none;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+    white-space: nowrap;
+
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+    color: #ff6508;
+}
+
+
+/* Active page */
+
+.nav-link.active {
+    font-weight: bold;
+
+    padding: 0 10px;
+}
+
+
+/* =========================
+   RIGHT ACTIONS
+========================= */
+
+.nav-actions {
+    margin-left: auto;
+
+    display: flex;
+    align-items: center;
+
+    gap: 28px;
+}
+
+
+/* Login */
+
+.log-in-btn {
+    color: #111;
+    text-decoration: none;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+
+    transition: color 0.2s ease;
+}
+
+.log-in-btn:hover {
+    color: #ff6508;
+}
+
+
+/* Sign up */
+
+.sign-up-btn {
+    width: 98px;
+    height: 41px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #ff6508;
+    color: white;
+
+    border-radius: 9px;
+
+    text-decoration: none;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+
+    transition: 0.2s ease;
+}
+
+.sign-up-btn:hover {
+    background: #e95700;
+}
