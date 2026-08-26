@@ -9,9 +9,9 @@ import {
 export default [
 
 
-    layout("./routes/layout/layout.tsx", [
-        index("./routes/home/home.tsx"),
-        // route("register", "./auth/register.tsx"),
+    layout("./layout/layout.tsx", [
+        index("./routes/home.tsx"),
+        route("news", "routes/news.tsx"),
     ]),
 
     // ...prefix("concerts", [
