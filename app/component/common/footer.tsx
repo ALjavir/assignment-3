@@ -10,7 +10,7 @@ export default function Footer() {
         { name: "Login", path: "/Contacts" },
     ];
     return (
-        <footer id="footer" className="w-full bg-white px-8 py-10 md:px-20 lg:px-8">
+        <footer id="footer" className="w-full  bg-white px-8 py-10 md:px-20 lg:px-8">
          
             <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-4 mb-8">
 
@@ -46,7 +46,7 @@ export default function Footer() {
             </div>
 
         
-            <div className="pt-8 border-t border-gray-100">
+            <div className="pt-4 border-t border-gray-100">
                 <p className="text-sm text-gray-400 text-center md:text-left max-w-4xl">
                     Startup Framework contains components and complex blocks
                     which can easily be integrated into almost any design.

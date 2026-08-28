@@ -17,7 +17,7 @@ export default function TopNavBar() {
     ];
 
     return (
-        <header className="fixed z-999 flex items-center justify-between w-full  py-4 bg-white border-b border-gray-100">
+        <header className="fixed inset-x-0 mx-auto z-999 flex items-center justify-between w-full  p-4 bg-white border-b border-gray-200">
 
             <img
                 className="h-8 md:h-10 w-auto object-contain"
@@ -25,7 +25,7 @@ export default function TopNavBar() {
                 alt="Pixelab"
             />
 
-           
+
             <nav className="hidden md:flex items-center gap-5 md:gap-8">
                 {navItems.map((item) => (
                     <NavLink
@@ -50,11 +50,11 @@ export default function TopNavBar() {
                 >
                     Log in
                 </a>
-          
-            <Buttonorengage text="Sign up" path="#" />
+
+                <Buttonorengage text="Sign up" path="#" />
             </div>
 
-         
+
             <button
                 className="flex md:hidden text-gray-700 hover:text-orange-500 focus:outline-none"
                 aria-label="Toggle Menu"
@@ -65,7 +65,7 @@ export default function TopNavBar() {
                 </svg>
             </button>
 
-          
+
             {isOpen && (
                 <div className="absolute top-full left-0 w-full bg-white shadow-lg border-t border-gray-100 p-6 flex flex-col gap-6 z-50 md:hidden">
 
@@ -87,7 +87,7 @@ export default function TopNavBar() {
                         ))}
                     </nav>
 
-                   
+
                     <div className="flex flex-col gap-4 pt-4 border-t border-gray-100">
                         <a
                             className="text-center text-base font-medium text-gray-700 hover:text-orange-500 transition-colors"
@@ -95,7 +95,7 @@ export default function TopNavBar() {
                         >
                             Log in
                         </a>
-                      <Buttonorengage text="Sign up" path="#" />
+                        <Buttonorengage text="Sign up" path="#" />
                     </div>
 
                 </div>

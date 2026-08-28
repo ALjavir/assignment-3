@@ -8,7 +8,7 @@ export default function Hero() {
     return (
         <section
             id="home-hero-sec"
-            className="flex flex-col md:flex-row items-center justify-between  py-10  gap-20"
+            className="flex flex-col md:flex-row items-center justify-between  pb-10  gap-20"
         >
 
 
@@ -23,7 +23,7 @@ export default function Hero() {
                     Our goal is top at the heart of creativity services industry as a digital creator. In has a after comment
                 </p>
 
-                <div className="flex flex-wrap items-center gap-16 mt-4">
+                <div className="flex flex-wrap items-center gap-10 mt-4">
                     <Buttonorengage text="Get Started" path="#" />
 
                     <button className="flex items-center gap-3 group hover:opacity-80 transition-opacity">

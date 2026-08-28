@@ -15,14 +15,13 @@ export function meta({ }: Route.MetaArgs) {
 
 export default function MainLayOut() {
   return (
-    <div className="flex flex-col min-h-100vh w-full max-w-7xl mx-auto px-6">
-
+   <>
       <TopNavBar />
-      <main className="flex-1 ">
+      <main className="flex-1 pt-20 flex flex-col min-h-100vh w-full max-w-7xl mx-auto px-6">
         <Outlet />
       </main>
 
       <Footer />
-    </div>
+   </>
   );
 }
